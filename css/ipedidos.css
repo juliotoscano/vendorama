@@ -90,11 +90,13 @@ body {
 @media (min-width: @screen-lg-min) { ... }
 
 #header{background-color: #40C4FF; padding-top: 1%; padding-bottom: 1%; margin-top: 0px; border: 2px; border-radius: 2px;}
-#header h3, i{color: white; display: inline-block; padding-left: 5%}
-#header h3, i, .icon-more{color: white; display: inline-block; padding-right: 5%}
-.icon-more{padding-left: 40%}
+.title-header, .icon-menu{display: inline-block; padding-left: 5%}
+.title-header h3{padding-left: 25%}
+.icon-more{display: inline-block; padding-right: 7%}
+.icon-more{float: right;}
 #breadcrumb{background-color: #40C4FF; }
 #breadcrumb div div{text-align: center; color: white; cursor:pointer;}
 .selected{background-color: yellow; width: auto; height: 2px;}
 .formulario{ margin-top: 6%; text-align: left;}
 .menu-option:hover{background-color: #80D8FF;}
+.nav-pills{margin-top: 20%}
