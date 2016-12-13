@@ -97,3 +97,4 @@ body {
 #breadcrumb div div{text-align: center; color: white; cursor:pointer;}
 .selected{background-color: yellow; width: auto; height: 2px;}
 .formulario{ margin-top: 6%; text-align: left;}
+.menu-option:hover{background-color: #80D8FF;}
