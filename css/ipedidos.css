@@ -95,8 +95,8 @@ body {
 .icon-more{display: inline-block; padding-right: 7%}
 .icon-more{float: right;}
 #breadcrumb{background-color: #40C4FF; }
-#breadcrumb div div{text-align: center; color: white; cursor:pointer;}
+#breadcrumb div {text-align: center; color: white; cursor:pointer;}
 .selected{background-color: yellow; width: auto; height: 2px;}
-.formulario{ margin-top: 6%; text-align: left;}
+.formulario{ margin-top: 25%; text-align: left;}
 .menu-option:hover{background-color: #80D8FF;}
 .nav-pills{margin-top: 20%}
