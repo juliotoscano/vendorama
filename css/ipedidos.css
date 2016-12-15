@@ -95,8 +95,10 @@ body {
 .icon-more{display: inline-block; padding-right: 7%}
 .icon-more{float: right;}
 #breadcrumb{background-color: #40C4FF; }
-#breadcrumb div {text-align: center; color: white; cursor:pointer;}
+#breadcrumb div {text-align: center; color: #EEEEEE; cursor:pointer;}
 .selected{background-color: yellow; width: auto; height: 2px;}
-.formulario{ margin-top: 25%; text-align: left;}
+.article{ margin-top: 150px; text-align: left;}
 .menu-option:hover{background-color: #80D8FF;}
 .nav-pills{margin-top: 20%}
+#title-registrados{color: #757575}
+.card-pedido{background-color: #009688;}
