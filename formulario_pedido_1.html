@@ -1,37 +1,55 @@
 <form class="form-horizontal" method="post" accept-charset="utf-8">
-    <div class="form-group">
+    <div class="form-group form1">
         <label for="inputCpf" class="col-md-2 control-label">CPF:</label>
         <div class="col-md-10">
             <input class="form-control" type="text" name="cpf" placeholder="cpf">
         </div>
     </div>
-    <div class="form-group">
-        <label for="inputCpf" class="col-md-2 control-label">Nome:</label>
+    <div class="form-group form1">
+        <label for="inputNome" class="col-md-2 control-label">Nome:</label>
         <div class="col-md-10">
             <input class="form-control" type="text" name="nome" placeholder="nome completo">
         </div>
     </div>
-    <div class="form-group">
-        <label for="inputCpf" class="col-md-2 control-label">Endereço:</label>
+    <div class="form-group form1">
+        <label for="inputEndereco" class="col-md-2 control-label">Endereço:</label>
         <div class="col-md-10">
             <input class="form-control" type="text" name="endereço" placeholder="Endereço para entrega do produto">
         </div>
     </div>
-    <div class="form-group">
-        <label for="inputCpf" class="col-md-2 control-label">Telefone:</label>
+    <div class="form-group form1">
+        <label for="inputTelefone" class="col-md-2 control-label">Telefone:</label>
         <div class="col-md-10">
             <input class="form-control" type="text" name="telefone" placeholder="Número para contato">
         </div>
     </div>
-    <div class="form-group">
+    <div class="form-group form1">
         <div class="col-md-offset-2 col-md-10 mensagem-form">
             <p><em>Ao adicionar o contato do cliente, o aplicativo registrará automaticamente o número
                 em seu celular adicionando também as redes sociais que estão relacionadas a esse número.</em></p>
         </div>
     </div>
-    <div class="form-group">
+    <div class="form-group form1">
         <div class="col-md-offset-8 col-md-4 col-xs-offset-8 col-xs-4">
-            <button type="submit" class="btn btn-info"> Continuar</button>
+            <button type="submit"  class="btn btn-info continuar"> Continuar</button>
+        </div>
+    </div>
+    <div class="form-group form2">
+        <label for="inputCod" class=" col-md-2 control-label" > Codigo do produto</label>
+        <div class="col-md-10">
+            <input class="form-group" type="text" name="codigo_produto" placeholder="codigo_produto">
+        </div>
+    </div>
+    <div class="form-group form2">
+        <select name="Produtos" multiple>
+            <option value="1">Sabonete</option>
+            <option value="2" >Shampoo</option>
+            <option value="3">Perfume Zoro</option>
+        </select>
+    </div>
+    <div class="form-group form2">
+        <div class="col-md-offset-8 col-md-4 col-xs-offset-8 col-xs-4">
+            <button type="submit" class="btn btn-info"> Finalizar</button>
         </div>
     </div>
 </form>
