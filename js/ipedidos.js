@@ -13,7 +13,7 @@ $(document).ready(function() {
             $('.article').load("registros_pedido.html");
         }else{
             if (i == 'option_1') {
-                $('.article').load("/formulario_pedido_1.html");
+                $('.article').load("./formulario_pedido_1.html");
             }else{
                 //Nova opcao
             }
@@ -24,12 +24,14 @@ $(document).ready(function() {
     var option_menu = $('.selected');
     var option_id = $(option_menu).attr('id');
     if (option_id == 'option_1') {
+        $('.article').load("./formulario_pedido_1.html");
     }else{};
+});
+//esse codigo abaixo nao ta funcionando muito bem
 
-    $('form').bind('submit', function(event) {
+$('form').bind('submit', function(event) {
         event.preventDefault();
+        event.stopPropagation();
         $('.form1').css('display','none');
         $('.form2').css('display','block');
     });
-
-});
