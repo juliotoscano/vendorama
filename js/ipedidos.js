@@ -16,7 +16,7 @@ $(document).ready(function() {
             if (i == 'option_1') {
                $('.article').load("home.html");
             }else{
-                $('.article').html("");
+                $('.article').load("clientes.html");
             }
         }
     });
