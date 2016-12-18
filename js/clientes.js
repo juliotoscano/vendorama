@@ -4,6 +4,9 @@ $('.novo-cliente').bind('click', function(event) {
 });
 $('form').bind('submit', function(event) {
     event.preventDefault();
-    $('.article').load("ciclo.html");
+    $('.article').load("clientes.html");
     alert('Um novo registro foi realizado com sucesso');
+});
+$(document).ready(function() {
+     $('#telefoneCliente').mask('(00) 0000-0000');
 });
